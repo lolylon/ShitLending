@@ -1,0 +1,525 @@
+<!DOCTYPE html><html lang="pl"><head>
+  <meta charset="UTF-8">
+  <title>Twój urok</title>
+  <meta name="description" content="GetShape">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="../dtime_nums.js"></script>
+
+  <!-- INTH_SNIPPET_TOP -->
+  
+</head>
+
+<body id="prelanding">
+  <header class="site-header">
+    <div class="site-header__logo-wrapper d-none d-lg-block">
+      <div class="container d-flex align-items-center">
+        <svg class="site-header__logo" width="117" height="116" viewBox="0 0 117 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M97.9745 16.3907C85.5608 16.6974 72.6093 22.6402 68.9776 35.4844C73.9317 23.6499 86.0607 19.2918 98.0062 19.8797C99.9612 19.9436 101.916 20.1225 103.859 20.3845C97.9745 24.9918 94.096 32.0784 92.761 39.459C91.4513 46.2006 92.16 53.0125 93.8176 59.556C94.2605 61.0193 95.121 63.7479 95.5449 65.1985C96.8293 69.1923 96.9369 73.4865 95.8233 77.5314C93.3494 85.7811 87.4083 92.3054 80.6194 97.5261C82.7643 78.605 79.7273 59.6007 66.9656 44.405C54.2925 29.3818 35.2797 21.5539 16.4061 18.5122C11.6038 17.6751 4.96674 17.4706 0 17.2725C0.714958 18.6081 3.80889 24.5189 4.46058 25.8736C6.06765 29.3562 7.40899 33.005 8.44663 36.7049C10.5725 44.0727 11.5785 51.677 10.7244 59.2876C10.6231 60.4762 10.427 61.8373 10.389 63.045C9.10464 84.0238 20.2339 103.872 40.4869 110.53C45.77 112.358 51.2112 113.195 56.6778 113.514L57.1017 111.789C59.0251 103.443 59.5376 94.8678 58.2849 86.4073C57.0638 78.1257 53.6914 69.9016 47.6934 64.0483C57.5193 76.4707 57.3801 93.8646 53.3751 108.607C36.0453 105.571 22.4358 94.7273 19.114 76.5473C18.2979 72.3171 18.1207 67.9462 18.5256 63.684C18.9622 60.08 19.5443 56.4823 19.5569 52.8464C19.6202 44.3731 18.0068 36.0148 15.2799 28.0654C31.8694 30.941 48.5032 38.066 59.4364 50.8654C72.3879 66.0548 73.628 87.1102 69.971 106.261L68.1361 116C72.0526 113.757 78.9807 110.096 82.4859 107.361C97.0318 96.7977 109.68 79.9022 101.866 61.1983C101.511 60.1822 100.619 57.8562 100.36 56.8338C96.9053 45.8492 97.6645 33.0689 106.225 24.7042C108.781 21.9309 113.71 19.7647 117 17.969C110.907 17.1447 104.124 16.0328 97.9745 16.3907Z" fill="#BF1A60"></path>
+          <path d="M56.6652 7.60425C63.0049 9.26569 69.0788 11.5278 75.4122 13.4704C71.1415 6.44764 63.6312 2.03845 55.8743 0C49.8003 2.96502 44.1945 6.87578 40.1009 12.3521C38.8608 14.0838 37.7346 15.9817 37.1905 18.0841C39.0316 16.9658 40.7463 16.0201 42.4799 15.0871C46.8519 12.7803 52.154 10.0325 56.6652 7.59786V7.60425Z" fill="#BF1A60"></path>
+        </svg>
+        <div class="site-header__text">
+          <p class="site-header__title">Twój urok</p>
+          <p class="site-header__subtitle">portal prawdziwej kobiety</p>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav navbar navbar-expand-lg">
+      <div class="container">
+        <div class="d-flex flex-row flex-nowrap">
+          <button class="col-2 hamburger hamburger--squeeze collapsed d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Menu">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="col-10 site-header__logo-wrapper d-flex align-items-center navbar-brand d-lg-none">
+            <svg width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M41.8695 6.92365C36.5645 7.05321 31.0296 9.56354 29.4776 14.9891C31.5947 9.99003 36.7781 8.14912 41.883 8.39746C42.7185 8.42445 43.554 8.50003 44.3841 8.6107C41.8695 10.5569 40.212 13.5504 39.6415 16.668C39.0818 19.5158 39.3846 22.3932 40.093 25.1573C40.2823 25.7754 40.65 26.928 40.8312 27.5407C41.3801 29.2278 41.426 31.0417 40.9501 32.7503C39.8929 36.2351 37.354 38.9911 34.4527 41.1964C35.3694 33.2038 34.0715 25.1762 28.6178 18.7573C23.2019 12.4113 15.0768 9.10467 7.01114 7.81981C4.9589 7.4662 2.12254 7.37983 0 7.29615C0.305538 7.8603 1.62773 10.3571 1.90623 10.9294C2.59301 12.4005 3.16623 13.9418 3.60967 15.5047C4.51817 18.6169 4.94809 21.8291 4.58306 25.0439C4.5398 25.546 4.45598 26.1209 4.43976 26.6311C3.89087 35.4928 8.64698 43.8768 17.3021 46.6894C19.5598 47.4614 21.8851 47.815 24.2213 47.95L24.4024 47.2212C25.2244 43.6959 25.4434 40.0735 24.9081 36.4996C24.3862 33.0014 22.9451 29.5274 20.3818 27.0549C24.5809 32.3023 24.5214 39.6497 22.8099 45.8769C15.404 44.5948 9.58793 40.0141 8.1684 32.3347C7.8196 30.5477 7.74389 28.7014 7.91694 26.901C8.10351 25.3786 8.35226 23.8589 8.35767 22.323C8.38471 18.7438 7.69522 15.2131 6.52985 11.8552C13.6194 13.0699 20.7279 16.0796 25.4002 21.4863C30.935 27.9024 31.465 36.7966 29.9021 44.8863L29.118 49C30.7917 48.0526 33.7524 46.5059 35.2504 45.3506C41.4666 40.8887 46.8716 33.7518 43.5323 25.851C43.3809 25.4218 42.9997 24.4393 42.8888 24.0074C41.4125 19.3673 41.737 13.9688 45.3953 10.4354C46.4877 9.26392 48.594 8.34887 50 7.59037C47.3962 7.24216 44.4976 6.77249 41.8695 6.92365Z" fill="white"></path>
+              <path d="M24.2159 3.21214C26.9252 3.91395 29.5209 4.8695 32.2275 5.69008C30.4023 2.72357 27.1928 0.86107 23.8779 0C21.2822 1.25247 18.8865 2.90442 17.1371 5.2177C16.6072 5.94921 16.1259 6.75089 15.8934 7.63896C16.6802 7.16658 17.4129 6.76709 18.1538 6.373C20.0222 5.39856 22.288 4.23787 24.2159 3.20944V3.21214Z" fill="white"></path>
+            </svg>
+            <div class="site-header__text">
+              <p class="site-header__title">Twój urok</p>
+              <p class="site-header__subtitle">portal prawdziwej kobiety</p>
+            </div>
+          </div>
+        </div>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="navbar-nav justify-content-center flex-wrap">
+            <li class="nav-item current-box"> <a class="landing-url current nav-link" href="#">Styl</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Pielęgnacja</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Makijaż</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Psychologia</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Zdrowie</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Kuchnia</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Seriale</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Ale plota!</a> </li>
+            <li class="nav-item"> <a class="landing-url nav-link" href="#">Forum</a> </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="pb-md-5">
+    <div class="container">
+      <div class="row">
+        <article class="col-lg-8 main-article">
+          <div class="d-flex justify-content-between mt-3 mb-3 mt-lg-5 mb-lg-5">
+            <div class="bg-yellow d-lg-flex align-items-center">
+              <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C8.53125 0 9 0.46875 9 1C9 1.5625 8.53125 2 8 2H7.5V3.09375C8.65625 3.28125 9.71875 3.75 10.5938 4.46875L11.2812 3.8125C11.6562 3.40625 12.3125 3.40625 12.6875 3.8125C13.0938 4.1875 13.0938 4.84375 12.6875 5.21875L11.9375 5.96875C12.5938 7 13 8.21875 13 9.5C13 13.0938 10.0625 16 6.5 16C2.90625 16 0 13.0938 0 9.5C0 6.25 2.375 3.5625 5.5 3.09375V2H5C4.4375 2 4 1.5625 4 1C4 0.46875 4.4375 0 5 0H8ZM7.25 6C7.25 5.59375 6.90625 5.25 6.5 5.25C6.0625 5.25 5.75 5.59375 5.75 6V10C5.75 10.4375 6.0625 10.75 6.5 10.75C6.90625 10.75 7.25 10.4375 7.25 10V6Z" fill="#242424"></path>
+              </svg>
+              Ten artykuł przeczytasz w 3 minuty
+            </div>
+            <div class="social d-flex align-items-center">
+              <a class="landing-url social__icon" href="#">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_5945_392)">
+                    <path d="M14 0C6.26864 0 0 6.3009 0 14.072C0 21.1272 5.16992 26.9519 11.9078 27.9696V17.8017H8.44368V14.1024H11.9078V11.6415C11.9078 7.56626 13.8835 5.77742 17.2525 5.77742C18.8664 5.77742 19.7198 5.89788 20.1242 5.95304V9.18173H17.8259C16.3957 9.18173 15.8962 10.545 15.8962 12.0817V14.1036H20.0883L19.5194 17.8028H15.8962V28.0011C22.7293 27.069 28.0011 21.197 28.0011 14.0732C28 6.3009 21.7314 0 14 0Z" fill="#3B5998"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_5945_392">
+                      <rect width="28" height="28" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a class="landing-url social__icon" href="#">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_5945_608)">
+                    <path d="M17.2816 7.3248H10.7296C8.8592 7.3248 7.3472 8.8368 7.3472 10.7072V17.2592C7.3472 19.1296 8.8592 20.6416 10.7296 20.6416H17.2816C19.152 20.6416 20.664 19.1296 20.664 17.2592V10.7072C20.664 8.8368 19.152 7.3248 17.2816 7.3248ZM18.1104 13.9888C18.1104 16.2176 16.296 18.032 14.056 18.0208C11.8272 18.0208 10.0128 16.2064 10.024 13.9664C10.024 11.7376 11.8384 9.9232 14.0784 9.9344C16.3072 9.9456 18.1104 11.76 18.1104 13.9888ZM19.3088 9.6656C19.3088 10.2032 18.872 10.6288 18.3456 10.6288C17.808 10.6288 17.3824 10.192 17.3824 9.6656C17.3824 9.128 17.8192 8.7024 18.3456 8.7024H18.3568C18.8832 8.7024 19.3088 9.1392 19.3088 9.6656ZM14.056 11.3792C12.6224 11.3792 11.4576 12.5552 11.4688 13.9776C11.4688 15.4112 12.6448 16.576 14.0672 16.5648C15.5008 16.5648 16.6544 15.4 16.6544 13.9776V13.9664C16.6544 12.5328 15.4896 11.3792 14.056 11.3792Z" fill="url(#paint0_linear_5945_608)"></path>
+                    <path d="M14 0C6.272 0 0 6.272 0 14C0 21.728 6.272 28 14 28C21.728 28 28 21.728 28 14C28 6.272 21.728 0 14 0ZM22.2096 17.2592C22.1872 19.9696 19.992 22.1536 17.2816 22.1536H10.7184C7.9968 22.1536 5.7904 19.9472 5.7904 17.2256V10.7072C5.7904 7.9856 7.9968 5.7792 10.7184 5.768H17.2704C19.992 5.768 22.1984 7.9856 22.1984 10.7072V17.2592H22.2096Z" fill="url(#paint1_linear_5945_608)"></path>
+                  </g>
+                  <defs>
+                    <linearGradient id="paint0_linear_5945_608" x1="3" y1="28" x2="32" y2="1.61252e-07" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#FEDA77"></stop>
+                      <stop offset="0.244792" stop-color="#F58529"></stop>
+                      <stop offset="0.489583" stop-color="#DD2A7B"></stop>
+                      <stop offset="0.744792" stop-color="#8134AF"></stop>
+                      <stop offset="1" stop-color="#515BD4"></stop>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_5945_608" x1="3" y1="28" x2="32" y2="1.61252e-07" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#FEDA77"></stop>
+                      <stop offset="0.244792" stop-color="#F58529"></stop>
+                      <stop offset="0.489583" stop-color="#DD2A7B"></stop>
+                      <stop offset="0.744792" stop-color="#8134AF"></stop>
+                      <stop offset="1" stop-color="#515BD4"></stop>
+                    </linearGradient>
+                    <clipPath id="clip0_5945_608">
+                      <rect width="28" height="28" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a class="landing-url social__icon" href="#">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_5945_394)">
+                    <path d="M14 0C6.27984 0 0 6.27984 0 14C0 21.7202 6.27984 28 14 28C21.7202 28 28 21.7202 28 14C28 6.27984 21.7202 0 14 0ZM20.8398 11.275C20.8454 11.4184 20.8499 11.5651 20.8499 11.7118C20.8499 16.1661 17.4574 21.3046 11.256 21.3046C9.352 21.3046 7.57904 20.7469 6.0872 19.7893C6.3504 19.8206 6.61808 19.8363 6.89136 19.8363C8.47168 19.8363 9.92544 19.2987 11.079 18.3938C9.604 18.3669 8.35968 17.3902 7.92848 16.0518C8.13456 16.091 8.34624 16.1123 8.56352 16.1123C8.8704 16.1123 9.16944 16.072 9.45056 15.9936C7.90944 15.6822 6.74688 14.3214 6.74688 12.6874V12.6448C7.2016 12.8979 7.72128 13.0491 8.27456 13.067C7.36848 12.4611 6.77488 11.4307 6.77488 10.2603C6.77488 9.64208 6.94064 9.06416 7.23072 8.56464C8.89392 10.6042 11.3792 11.947 14.1803 12.0882C14.1221 11.8406 14.0918 11.5842 14.0918 11.3198C14.0918 9.45728 15.6016 7.94864 17.4642 7.94864C18.4341 7.94864 19.3099 8.35744 19.9248 9.01376C20.692 8.86256 21.4144 8.58256 22.0662 8.19616C21.8154 8.9824 21.28 9.6432 20.5834 10.061C21.2666 9.97808 21.915 9.79776 22.521 9.53008C22.0696 10.2066 21.4973 10.8013 20.8398 11.2762V11.275Z" fill="#1DA1F2"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_5945_394">
+                      <rect width="28" height="28" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a class="landing-url social__icon print d-flex align-items-center" href="#">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 6H2C0.875 6 0 6.90625 0 8V11C0 11.5625 0.4375 12 1 12H2V15C2 15.5625 2.4375 16 3 16H13C13.5312 16 14 15.5625 14 15V12H15C15.5312 12 16 11.5625 16 11V8C16 6.90625 15.0938 6 14 6ZM12 14H4V11H12V14ZM13.5 9.25C13.0625 9.25 12.75 8.9375 12.75 8.5C12.75 8.09375 13.0625 7.75 13.5 7.75C13.9062 7.75 14.25 8.09375 14.25 8.5C14.25 8.9375 13.9062 9.25 13.5 9.25ZM4 2H11.1562L12 2.84375V5H14V2.4375C14 2.15625 13.875 1.90625 13.6875 1.71875L12.2812 0.3125C12.0938 0.125 11.8438 0 11.5625 0H3C2.4375 0 2 0.46875 2 1V5H4V2Z" fill="#242424"></path>
+                </svg>
+                <span class="d-none d-lg-block">drukuj</span>
+              </a>
+            </div>
+          </div>
+          <h1 class="mt-4 mb-4"><span class="text-purple">HIT kosmetyczny:</span> „Rzęsy rosną jak szalone w kilka dni. Lepsze niż sztuczne!”. Ta rewolucyjna kuracja podbija Internet. Zamówienia idą w tysiącach!</h1>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-1.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-1.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <p>Nasze forum zalała fala zdjęć prezentujących szokujące metamorfozy kobiet. Czytelniczki pokazują swoje zdjęcia PRZED oraz PO kuracji z pomocą <strong>naturalnego preparatu na intensywny porost rzęs.</strong></p>
+          <p><strong>Nawet kobiety, które wcześniej straciły niemalże wszystkie rzęsy, po 15 dniach cieszą się wyrazistym wachlarzem rzęs. Aż trudno uwierzyć, że zdjęcia „PO” nie przedstawiają świeżo doklejonych sztucznych rzęs!</strong></p>
+          <p>Efekt jest jednak naturalny i… zdecydowanie piękniejszy. A najlepsze jest to, że kosztuje ułamek sumy, jaką trzeba wydawać na sztuczne rzęsy. Skąd tak wysoka skuteczność kuracji i zdumiewająco szybkie efekty? Gdzie zdobyć ją w najlepszej cenie? Dowiedz się, czytając artykuł.</p>
+          <h2>To rewolucja kosmetologiczna – tusz do rzęs przestaje być potrzebny!</h2>
+          <p>Nowy preparat na intensywny porost rzęs szybko skradł serca kobiet w całej Europie. To dlatego, że nawet najkrótsze, najrzadsze i najsłabsze włoski w kilka dni zamienia w zjawiskowy wachlarz rzęs niczym skrzydła motyla.</p>
+          <p>Stosowanie nie ma żadnych efektów ubocznych, bo preparat ma naturalny skład. Co więcej, efekty są trwałe i nie mijają zaraz po zakończeniu stosowania.</p>
+          <p class="text-uppercase"><strong>Oto kilka opinii kobiet, które już przeszły tę kurację:</strong></p>
+          <div class="section-divider"></div>
+          <div class="testimonial">
+            <h2 class="testimonial__title">„Koniec kompleksów…” </h2>
+            <p class="testimonial__text">Anna wyznaje, że wcześniej nie lubiła patrzeć w lustro: <i>„Było mi wstyd, że jako kobieta nie miałam czasu ani pieniędzy, żeby o siebie zadbać i chodzić na rzęsy, jak koleżanki…”.</i></p>
+            <p class="testimonial__text">Jej samoocena podskoczyła mocno w górę po zastosowaniu kuracji:</p>
+            <p class="testimonial__text"><i>„Teraz czuję się piękna, a do tego dumna, że mam sprytny sposób na naturalnie długie rzęsy. <strong>Nie marnuję pieniędzy ani czasu na doklejanie rzęs u kosmetyczek.”</strong></i></p>
+          </div>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-2.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-2.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h2 class="testimonial__title">„Nie muszę się malować!”</h2>
+            <p class="testimonial__text">Iwona wraz z nowym wyglądem odzyskała pewność siebie:</p>
+            <p class="testimonial__text"><i>„Narzeczony mi kiedyś powiedział: Nooo, Iwona, z rana to Ty już nie jesteś taka piękna… Śmiał się. Nie muszę Wam chyba tłumaczyć, jak mnie to ubodło.</i></p>
+            <p class="testimonial__text"><i>Potem codziennie wstawałam godzinę przed nim, żeby zdążyć się pomalować. ALE! Przestałam to robić już po tygodniu stosowania tego serum. Nie muszę, bo wyglądam pięknie od razu po przebudzeniu.</i></p>
+            <p class="testimonial__text"><i>Moje rzęsy są długie, gęste i czarne, jakbym dopiero co je podkręciła zalotką i wymalowała najdroższym tuszem. A Marek (mój narzeczony) śniadanka do łóżka mi zaczął przynosić… 🥰”</i></p>
+          </div>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-3.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-3.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h2 class="testimonial__title">„Mam rzęsy dłuuugie jak firanki!”</h2>
+            <p class="testimonial__text">Marzena nie mogła malować rzęs tuszem z powodu alergii i nadwrażliwości oczu. Dzięki tej kuracji spełniła marzenie o zniewalających rzęsach: </p>
+            <p class="testimonial__text"><i>„Bez makijażu czułam się jak szara myszka i zazdrościłam przyjaciółkom, że mogą podkreślać urodę. Teraz to one mi zazdroszczą, bo wyglądam świetnie bez żadnego tuszu: rano bez makijażu, na basenie czy w saunie. Po prostu rewelacja!”.</i></p>
+          </div>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-4.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-4.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h2 class="testimonial__title">„Oszczędzam kupę kasy!”</h2>
+            <p class="testimonial__text">Kamila przez 2 lata chodziła do kosmetyczki na zabieg doklejania sztucznych rzęs. Łącznie wydała na to około 12&nbsp;000 zł.</p>
+            <p class="testimonial__text"><i>„Teraz oszczędzam na rzęsach tyle pieniędzy, że pojadę za to na wakacje do ciepłych krajów albo kupię samochód” – pisze z radością Kamila.</i></p>
+          </div>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-5.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-5.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h2 class="testimonial__title">„Hipnotyzuję spojrzeniem!”</h2>
+            <p class="testimonial__text">Paulina zwraca uwagę na skuteczność i brak efektów ubocznych kuracji:</p>
+            <p class="testimonial__text"><i>„Moje rzęsy były długie, ale niestety bardzo rzadkie, cienkie i jasne. Jak malowałam je tuszem, to wyglądałam jak kreatura. Używałam jakichś odżywek, ale mało co pomagały. Do tego po aplikacji szczypały mnie oczy. Często nawet puchły.</i></p>
+            <p class="testimonial__text"><i>A ten preparat nie dość, że zagęścił i przyciemnił mi rzęsy w dosłownie 2 tygodnie, to jeszcze nie powoduje żadnych alergii. Jestem w szoku, że on jest taki niedrogi!”.</i></p>
+          </div>
+          <div class="image-before-after testimonial-box__images d-flex mb-4">
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__before-6.png" alt="before">
+              <p class="image-before-after__text image-before-after__text--before">Przed</p>
+            </div>
+            <div class="image-before-after__wrapper position-relative">
+              <img class="image-before-after__img img-fluid" src="img__after-6.png" alt="after">
+              <p class="image-before-after__text">Po 15 dniach</p>
+            </div>
+          </div>
+          <div class="section-divider"></div>
+          <h2>Tego odkrycia dokonała Polka</h2>
+          <p>Kuracją, która gwarantuje tak radykalne wydłużenie, zagęszczenie i przyciemnienie rzęs jest <strong>bioaktywator keratynowy</strong> wynaleziony przez dr Małgorzatę Daszyńską – kosmetolożkę cenioną w całej Europie.</p>
+          <p>Bioaktywator keratynowy <strong>stymuluje rzęsy i brwi na aż 5 poziomach (długość, grubość, wzrost, wzmocnienie, ochrona).</strong> To prawdziwy przełom w dziedzinie kosmetologii! A najlepsze, że każda kobieta w Polsce może z niego skorzystać, by raz na zawsze zapomnieć o potrzebie stosowania tuszu albo marnowaniu pieniędzy na doklejanie sztucznych rzęs u kosmetyczki.</p>
+          <h2>Te efekty brzmią jak marzenie, ale są w 100% potwierdzone naukowo!</h2>
+          <p>Bioaktywator keratynowy dr Daszyńskiej został przebadany przez 7 laboratoriów na całym świecie. W testach brało udział aż 60 000 kobiet. Wszystkie badania potwierdziły ponad wszelką wątpliwość, że kuracja:</p>
+          <ul class="list">
+            <li class="list__item"><strong>przywraca do życia uśpione lub martwe mieszki włosowe</strong> na powiekach lub brwiach – już po około 2 dniach stosowania nowe i mocne rzęsy (lub brwi) zaczynają rosnąć nawet w miejscach wieloletnich przerzedzeń (żadna dostępna na rynku odżywka ani serum nie posiada tej właściwości)</li>
+            <li class="list__item"><strong>ekstremalnie przyspiesza wzrost włosków i wydłuża rzęsy</strong> minimum o 3 mm (rekordzistka wydłużyła rzęsy aż o 9 mm!) – po 15 dniach naturalne rzęsy wyglądają lepiej niż doklejane sztuczne</li>
+            <li class="list__item"><strong>przynajmniej 2-krotnie zagęszcza rzęsy i pogrubia włoski o 60%</strong> – tym samym sprawia, że rzęsy i brwi są jeszcze wyrazistsze</li>
+            <li class="list__item"><strong>radykalnie zapobiega wypadaniu rzęs i brwi</strong> – mocno zagnieżdża włoski w cebulkach i wydłuża cykl życia włosa o około 300%</li>
+            <li class="list__item"><strong>intensywnie wzmacnia i odżywia strukturę włosków</strong> – rzęsy i brwi są silne i odporne na wypadanie, łamanie, uszkodzenia mechaniczne i promienie UV</li>
+            <li class="list__item"><strong>przyciemnia włoski</strong> – sprawiając, że stają się wyraziste bez potrzeby farbowania np. henną.</li>
+          </ul>
+          <h2>Nagrody sypią się jedna po drugiej</h2>
+          <p>Można śmiało stwierdzić, że nasza rodaczka rozsławia Polskę na cały świat. Za wynalezienie bioaktywatora keratynowego dostała już kilkanaście nagród branży beauty, w tym Best Cosmetological Discovery of the Year. W branży kosmetologicznej ta nagroda jest tak prestiżowa jak Nagroda Nobla!</p>
+          <h2>W przeciwieństwie do dostępnych na rynku odżywek do rzęs, bioaktywator keratynowy wynaleziony przez dr Daszyńską:</h2>
+          <ul>
+            <li>zapewnia szybkie i trwałe efekty – po 15 dniach kuracji mieszki włosowe są raz na zawsze „zaprogramowane” do produkcji długich, gęstych i mocnych rzęs</li>
+            <li>sprawia, że rzęsy odrastają nawet w miejscach wieloletnich przerzedzeń (ponieważ przywraca do życia nawet obumarłe mieszki włosowe)</li>
+            <li>nie powoduje alergii ani podrażnień – jest polecany przez okulistów</li>
+            <li>może być stosowany zarówno na górną, jak i dolną powiekę oraz na brwi</li>
+            <li>jako jedyny na rynku ma działanie potwierdzone naukowo</li>
+            <li>jest bardzo wydajny – jedno opakowanie starcza na całą kurację</li>
+          </ul>
+          <h2>Trwa promocja – duży rabat dla wszystkich Polek</h2>
+          <p>Pani dr Małgorzacie Daszyńskiej serdecznie gratulujemy sukcesu naukowego i życzymy powodzenia w dalszej pracy.</p>
+          <p>Z kolei Wam, Drogie Czytelniczki, podajemy link do oficjalnej strony dr Daszyńskiej. Tam sama pani doktor szczegółowo opisuje działanie kuracji. Na tej stronie możecie też zamówić kurację biokatywatorem keratynowym w świetnej promocji. Promocyjna obniżka ceny trwa do końca dnia <strong id="date">31-3-2024</strong>.</p>
+
+
+          <div class="autor d-flex mt-4 mb-4 align-items-center">
+            <img class="img-fluid" src="img_autor.png" alt="autor">
+            <p class="autor__text mb-0"><strong>Autorka artykułu:</strong> Agata Kwiecińska, <br>
+              redaktorka działu STYL i ZDROWIE</p>
+          </div>
+
+          <div class="comments">
+            <h3 class="comments__title title-with-bg text-bold d-flex align-items-center">KOMENTARZE<span class="comments__count">(139 komentarzy)</span></h3>
+            <div class="comments-list mt-5">
+
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Eliza <span class="comment__date" id="comment-date-0"><script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content">a czy mozna uzywac ten produkt jak sie ma doklejone sztuczne rzesy? bo ja jeszcze mam doklejone sztuczne</p>
+                </div>
+              </div>
+
+              <div class="comment response d-flex">
+                <div class="comment__img">
+                  <img src="icon__autor.png" alt="autor">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Agata Kwiecińska<span class="comment__date"> <script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content"><span class="comment__mentioned">@Eliza</span>, oczywiście, że można.</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user-2.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Justyna <span class="comment__date"><script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content">Moja bratowa używała przed ślubem, nikt jej nie wierzył, że to naturalne rzęsy ma takie długie, nawet dała dotykać, żeby udowodnić że nic się nie rozmazuje ani nie jest plastikowe. NO HIT rzeczywiście!! Zamowiolam wczoraj dziś ma być kurier, napisze jak moje efekty 😋</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Milenka <span class="comment__date"><script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content">Kochane Kobietki, bardzo z całego serca WAM polecam tą kurację. Używałam niecały tydzień, a wszyscy zwracają uwagę jak długie mam rzęsy, a ja ich nawet nie tuszuję ani nic, cudo po prostu!!!! Ale nie widziałam w aptekach ani sklepach, tylko na tej stronie można zamówić.</p>
+                  <img class="img-fluid mt-2 mb-2" src="IMG_comment.png" alt="comment">
+                </div>
+              </div>
+              <div class="comment d-flex response">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Beti <span class="comment__date"> <script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content"><span class="comment__mentioned">@Milenka</span> na której stronie to można zamówić?</p>
+                </div>
+              </div>
+              <div class="comment response response-2 d-flex ml-4">
+                <div class="comment__img">
+                  <img src="icon__autor.png" alt="autor">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Agata Kwiecińska<span class="comment__date"> <script>dtime_nums(0)</script></span></p>
+                  <p class="comment__content"><span class="comment__mentioned">@Beti</span> Kurację można zamówić na stronie, do której link podajemy na końcu artykułu 😊 Jak nie możesz znaleźć,
+                    <a class="landing-url" href="#">daję Ci link również tutaj, klik &gt;&gt;</a>
+                  </p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Olga <span class="comment__date"><script>dtime_nums(-1)</script></span></p>
+                  <p class="comment__content">Jaaaaj, ale super. Właśnie szukałam ratunku dla moich rzęs, bo bardzo mi się przerzedziły.</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user-5.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Iwona Wiecek <span class="comment__date"><script>dtime_nums(-1)</script></span></p>
+                  <p class="comment__content">Kobiety,NIE PRZYKLEJAJCIE sobie sztucznych rzęs nie dość że ładujecie kupe kasy psu w du*e, to jeszcze wyglądacie sztucznie jak jakies wiejskie dżakondy……</p>
+                </div>
+              </div>
+              <div class="comment response response d-flex ml-4">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="autor">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">gabriela<span class="comment__date"> <script>dtime_nums(-1)</script></span></p>
+                  <p class="comment__content"><span class="comment__mentioned">@Iwona Wiecek</span> Jak masz dobrą kosmetyczke to ci przykleji tak że nie będzie znać że sztuczne. Bardziej bym zwróciła uwagę na to że jak przyklejasz sztuczne rzęsy to ci naturalne wypadają a potem to już nie ma do czego przyklejać</p>
+                </div>
+              </div>
+              <div class="comment response-2 d-flex">
+                <div class="comment__img">
+                  <img src="icon__user-5.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Iwona Wiecek <span class="comment__date"><script>dtime_nums(-1)</script></span></p>
+                  <p class="comment__content"><span class="comment__mentioned">@gabriela</span> No dlatego ja nie doklejam.</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user-3.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Bożena <span class="comment__date"><script>dtime_nums(-1)</script></span></p>
+                  <p class="comment__content">Ja jak u mamy w piecu kaflowym paliłam, to wtedy mu buchnęło i wypaliło brwi, przez lata malowałam kredką albo henną, a tu O, smarowałam tą odżywką i mi normalnie odrosły w tydzień. Teraz użwam na rzęsy i jestem bardzo bardzo zadowolona</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Elka <span class="comment__date"><script>dtime_nums(-2)</script></span></p>
+                  <p class="comment__content">Ciężko mi było uwierzyć, że to robi takie cuda. Sprawdziłam na sobie, proszę przed i po 12 dniach różnica. Ten produkt po prostu wymiata !!</p>
+                  <img class="img-fluid mt-2 mb-2" src="IMG_comment-1.png" alt="comment">
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user-4.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Agatka <span class="comment__date"><script>dtime_nums(-2)</script></span></p>
+                  <p class="comment__content">wcześniej nie wyścibiłam nosa z mieszkania bez pomalowanych oczu… raz jak musiałam szybko wyskoczyć do kuriera sąsiad mnie zobaczyl i zbladł. Zapytal na co jestem chora, a ja po prostu bylam nie pomalowana, to było takie uwłaczające 😕 zamowilam ten bioaktywator keratynowy i mam sto razy lepsze rzesy niż jak malowałam, a tamten chlop mnie teraz w drzwiach przepuszcza, hah…</p>
+                </div>
+              </div>
+              <div class="comment d-flex">
+                <div class="comment__img">
+                  <img src="icon__user.png" alt="user">
+                </div>
+                <div class="comment__box">
+                  <p class="comment__author">Paulina <span class="comment__date"><script>dtime_nums(-2)</script></span></p>
+                  <p class="comment__content">Dooooobra, zamawiam , póki promocja 😋</p>
+                </div>
+              </div>
+
+              <div class="page text-center">
+                <p>Strona &lt; 1/19 &gt;</p>
+              </div>
+            </div>
+            <div id="form_id1" class="container1 mt-5 text-center font-weight-bold">
+              <div class="mb-4 mb4-imgwidth">
+                  <img src="../product.png" class="img-fluid" alt="Изображение продукта">
+              </div>
+              <div class="mb-4">
+                  <p class="endDiscount text-secondary">Rabat kończy się za:</p>
+              </div>
+
+              <div class="timer mb-4 simple_timer">
+                  <div>
+                      <span class="hours">03</span>
+                      <div>GODZINY</div>
+                  </div>
+                  <div>:</div>
+                  <div>
+                      <span class="minutes">44</span>
+                      <div>MINUTY</div>
+                  </div>
+                  <div>:</div>
+                  <div>
+                      <span class="seconds">28</span>
+                      <div>SEKUNDY</div>
+                  </div>
+              </div>
+          
+
+              <div class="prices mb-4">
+                <div class="old-price-size">
+                <div class="old-price-block">
+                  <p>Stara cena:</p>
+                  <p class="display-6 old-price">$105</p>
+                </div>
+                  <div class="old-price-block">
+                    <p>Nowa cena:</p>
+                  <p class=" display-6 new-price">$59</p>
+                </div>
+              </div>
+              </div>
+          
+
+              <form id="orderForm" method="post" action="api.php" onsubmit="return validateForm();">
+                  <div class="mb-4 mb4form">
+                      <span class="text-secondary">Nazwa</span>
+                      <input type="text" class="form-control mb-4" name="name" id="name" required maxlength="32">
+                      <div id="nameError" class="error-message"></div>
+                      <span class="text-secondary">Numer telefonu</span>
+                      <input type="text" class="form-control mb-2" name="phone" id="phone" required maxlength="32" pattern="[0-9+()-]{1,32}">
+                      <div id="phoneError" class="error-message"></div>
+                  </div>
+          
+
+                  <div class="mb-4">
+                      <button type="submit" class="btn order-button">ZAMÓWIENIE</button>
+                  </div>
+              </form>
+          
+
+              <div class="additional-text">
+                  <p>Płatność za zamówienie następuje dopiero po jego otrzymaniu</p>
+              </div>
+          </div>
+          </div>
+        </article>
+        <aside class="col-lg-4 sidebar mb-5 mb-md-0 pb-4 pb-md-0">
+          <div class="mb-4">
+            
+          </div>
+          <div class="articles">
+            <div class="promo-box">
+              <h2 class="promo-box__title text-uppercase text-center">MEGA PROMOCJA!</h2>
+              <img class="img-fluid w-100" src="../product.png" alt="getshape">
+              <div class="d-flex justify-content-center">
+                <a class="btn btn-primary mt-3 mb-3 d-flex landing-url" href="#">
+                  Sprawdź
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.625 0C5.20312 0 0 5.20312 0 11.625C0 18.0469 5.20312 23.25 11.625 23.25C18.0469 23.25 23.25 18.0469 23.25 11.625C23.25 5.20312 18.0469 0 11.625 0ZM10.2656 6.75C9.79688 6.32812 9.79688 5.57812 10.2188 5.15625L10.7344 4.64062C11.2031 4.17188 11.9062 4.17188 12.3281 4.64062L18.5625 10.875C18.9844 11.2969 18.9844 12 18.5625 12.4219L12.3281 18.6562C11.9062 19.0781 11.2031 19.0781 10.7344 18.6562L10.2188 18.1406C9.79688 17.7188 9.79688 16.9688 10.2656 16.5469L13.7812 13.125H5.25C4.59375 13.125 4.125 12.6562 4.125 12V11.25C4.125 10.6406 4.59375 10.125 5.25 10.125H13.7812L10.2656 6.75Z" fill="white"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="container footer text-center">
+    <p class="footer__copy">Copyright © 2022.</p>
+   
+  </footer>
+
+  <div class="site-modal modal fade" id="site-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <script src="../simple_timer.js"></script>
+  <script src="../scroll_to_form.js"></script>
+  <script src="../validate.js"></script>
+
+
+</body></html>
